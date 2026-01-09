@@ -229,3 +229,36 @@ nav .menu ul{
   padding-bottom: 40px;
   text-align: justify;
 }
+
+#brain-container .check-list{
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+#brain-container .check-list li{
+    margin-bottom: 16px;
+}
+
+/* Section - 5 */
+
+#ready-content{
+  width: 85%;
+  max-width: 1360px;
+  background-color: #F7F6F2;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#ready-content h1{
+  padding-top: 80px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#ready-content p{
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 16px 0;
+  color: #627382;
+}
