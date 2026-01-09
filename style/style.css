@@ -251,7 +251,7 @@ nav .menu ul{
 }
 
 #ready-content h1{
-  padding-top: 80px;
+  padding-top: 70px;
   font-size: 40px;
   font-weight: bold;
 }
@@ -261,4 +261,42 @@ nav .menu ul{
   font-weight: 400px;
   padding: 16px 0;
   color: #627382;
+}
+
+/* footer section */
+
+#footer-head{
+  margin-top: 120px;
+}
+footer{
+    background: #000;
+    color: white;
+    padding: 120px;
+    padding-bottom: 30px;
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.socials-links h4{
+    font-size: 20px; 
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 18px;
+}
+.icons{
+    display: flex;
+    gap: 16px;
+}
+
+.icons img{
+    width: 20px;
+}
+footer p{
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
