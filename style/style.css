@@ -143,3 +143,58 @@ nav .menu ul{
 }
 
 /* Section - 3 */
+
+#content{
+  background-color: #FFFFFF;
+}
+
+#content .main-container{
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  padding-top: 35px;
+}
+
+#content .content-head{
+  text-align: center;
+}
+#content .content-head h1{
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+#content .content-head p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 44px;
+}
+
+#content .container-box{
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+
+#content .container-box .box-card{
+  max-width: 322px;
+  /* border: 1px solid greenyellow; */
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+#content .container-box .box-card img{
+  max-width: 60px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 14px;
+}
+
+#content .container-box .box-card h3{
+  font-size: 24px;
+  font-weight: 600;
+  padding: 16px 0;
+}
